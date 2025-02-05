@@ -24,6 +24,7 @@ public class ShippingCostCalculator {
             else
             {
                 shippingCost = itemPrice * SHIPPING_RATE;
+                shippingCost = Math.round(shippingCost * 100) / 100.0; //Get rid of float
                 totalPrice =  itemPrice + shippingCost;
                 System.out.println( "The cost of the item is $" + itemPrice + ", shipping will cost $" + shippingCost + ". Your total price will be $" + totalPrice + ".");
             }

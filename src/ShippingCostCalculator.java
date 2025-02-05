@@ -19,7 +19,7 @@ public class ShippingCostCalculator {
             if(itemPrice > 100)
             {
                 totalPrice = itemPrice + FREE_SHIPPING;
-                System.out.println("The cost of the item is $" + itemPrice + " so you qualify for free shipping! The total cost will be " + totalPrice + ".");
+                System.out.println("The cost of the item is $" + itemPrice + " so you qualify for free shipping! The total cost will be $" + totalPrice + ".");
             }
             else
             {

@@ -11,7 +11,7 @@ public class ShippingCostCalculator {
         double totalPrice;
         String invalidInput;
 
-        System.out.print("Enter shipping rate, in Dollars: $");
+        System.out.print("Enter item price, in Dollars: $");
         if(in.hasNextDouble())
         {
             itemPrice = in.nextDouble();
